@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>VPS Cheatsheet</title>
+    <style type="text/css">
+        body {
+            color: #46473b;
+        }
+        h2 {
+            color: #f4d4df;
+            background-color: #c10443;
+            margin-bottom: 0px;
+            padding: 5px 10px;
+            font-size: 1.1em;
+        }
+        .table-striped>tbody>tr:nth-child(odd)>td {
+           background-color: #f4d4df;
+        }
+        table {
+            font-size: 0.9em;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+       <div class="row">
+          <div class="col-md">
+           <h1>VPS Cheatsheet</h1>
+           <p>A quick reference guide for common tasks on Ubuntu Linux based VPSs</p>
+        </div>
+       </div>
+        <div class="row">
+            <div class="col-md">
+                <h2>Maintenance</h2>
+                <table class="table table-striped table-sm table-borderless">
+                   <tbody>
+                    <tr><td>apt</td><td>Wrapper for common apt-get and apt-cache commands (<a href="http://manpages.ubuntu.com/manpages/cosmic/en/man8/apt.8.html">man apt</a>)</td></tr>
+                    <tr><td>sudo apt update</td><td>Resynchronize package index</td></tr>
+                    <tr><td>sudo apt full-upgrade</td><td>Upgrade packages and additionally install or remove dependencies as necessary</td></tr>
+                    <tr><td>sudo apt clean</td><td>Clean up package files</td></tr>
+                    <tr><td>sudo apt autoremove</td><td>Remove autoinstalled packages which are no longer required</td></tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="col-md"><h2>Section 2</h2></div>
+            <div class="col-md"><h2>Section 3</h2></div>
+        </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
